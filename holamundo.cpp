@@ -1,7 +1,10 @@
 #include <cstdio>
+#include <string>
 
 int main ()
 {
-    std:: puts ("hola mundo y alrededores");
+    std::string msg{"hola mundo y alrededores"};
+    msg = msg+" que tengan un buen dia";
+    std::puts (msg.c_str());
     return 0; 
 }
